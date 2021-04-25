@@ -1,27 +1,5 @@
-# AngularApp
+# 1. One form in several components // Un formulario en diferentes componentes.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+## This development is about to send and use the same form in different components. For example, in our simulation, we need to complete our personal information, professional information and additional information in three different components because we need to reuse this code separately in different parts of our app.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Este desarrollo muestra como enviar y utilizar el mismo formulario en diferentes componentes. Por ejemplo, en nuestra simulación, necesitamos completar información personal, información profesional e información adicional en tres componentes diferentes, ya que necesitamos poder reutilizar este código de modo independiente en varias partes de nuestra aplicación.
