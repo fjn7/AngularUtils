@@ -1,0 +1,33 @@
+<h3><strong>Note:</strong> We are using the same form in the diferent components. Each color indicate a diferent
+    component</h3>
+<div class="mainForm">
+    <form [formGroup]="form">
+        <label>Insert your identification:</label>
+        <input type="search" placeholder="identification number" formControlName="identificationField">
+    </form>
+</div>
+<div class="formPersonalInfo">
+    <app-personal-information [form]="form"></app-personal-information>
+</div>
+<div class="formProfessionalInfo">
+    <app-professional-information [form]="form"></app-professional-information>
+</div>
+<div class="formOtherInfo">
+    <app-other-information [form]="form"></app-other-information>
+</div>
+<div class="buttons">
+    <button type="button" class="btn btn-primary" (click)="onSubmit()">Primary</button>
+</div>
+<hr>
+<div class="formInformation">
+    <h2>Form information:</h2>
+    <p>Identification: {{ identificationValue }}</p>
+    <p>Name: {{ nameValue }}</p>
+    <p>Surname: {{ surnameValue }}</p>
+    <p>Address: {{ addressValue }}</p>
+    <p>Postal Code: {{ postalCodeValue }}</p>
+    <p>Sector: {{ sectorValue }}</p>
+    <p>Job: {{ jobValue }}</p>
+    <p>Experience: {{ experienceValue }}</p>
+    <p>Comments: {{ commentsValue }}</p>
+</div>

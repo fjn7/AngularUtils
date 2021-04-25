@@ -11,10 +11,8 @@ export class HeaderComponent implements OnInit {
   formSearch: FormGroup;
 
   constructor() {
-    this.formSearch = new FormGroup({
-      searchField: new FormControl()
-    });
-    //    this.formSearch.addControl('searchField', new FormControl(''));
+    this.formSearch = new FormGroup({});
+    this.formSearch.addControl('searchField', new FormControl(''));
   }
 
   ngOnInit(): void {

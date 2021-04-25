@@ -1,0 +1,15 @@
+.mainForm{
+    border: 3px solid gray;
+}
+
+.formPersonalInfo{
+    border: 2px solid red;
+}
+
+.formProfessionalInfo{
+    border: 2px solid blue;
+}
+
+.formOtherInfo{
+    border: 2px solid yellow;
+}
